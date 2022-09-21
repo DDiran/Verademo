@@ -28,7 +28,7 @@ jobs:
           filepath: 'app/target/verademo.war'
           vid: '${{ secrets.VERACODE_API_ID }}'
           vkey: '${{ secrets.VERACODE_API_KEY }}'
-          team: "Getting Started"
+          teams: "Demo Team"
           scantimeout: 15
 #          createsandbox: 'true'
 #          sandboxname: 'SANDBOXNAME'
